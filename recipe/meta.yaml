@@ -1,5 +1,5 @@
 {% set name = "captcha" %}
-{% set version = "0.3" %}
+{% set version = "0.4" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/captcha-{{ version }}.tar.gz
-  sha256: a6b28a120de0a37c44415e70225978e36b2645940133f2474c7a109b2d4683e2
+  sha256: 2ae5e8daac4f1649b57b34328bcc45ba691b5c707fc6fbdd016e213aece9a8b8
 
 build:
   number: 0
